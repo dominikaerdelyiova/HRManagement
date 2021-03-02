@@ -1,5 +1,7 @@
 package sk.kosickaakademia.company.entity;
 
+import sk.kosickaakademia.company.entity.enumerator.Gender;
+
 public class User {
     private int id;
     private String fname;
@@ -25,10 +27,6 @@ public class User {
 
     public String getFname() {
         return fname;
-    }
-
-    public String getLname() {
-        return lname;
     }
 
     public int getAge() {
